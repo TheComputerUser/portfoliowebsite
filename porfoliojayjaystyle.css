@@ -802,8 +802,7 @@ footer{
 #square-three{
     display: flex;
     justify-content: center;
-    height:100vh;
-
+    height: 100vh;
 }
 
 #contact-section{
@@ -838,6 +837,7 @@ footer{
     justify-content: flex-end;
     align-items: flex-end;
     width: 100%;
+    margin-bottom: 8px;
 }
 
 #contact-form-socials-title h2{
@@ -1336,8 +1336,6 @@ footer{
         overflow: none;
     }
 
-
-    
     .skill-logo-container button{
         display: flex;
         justify-content: center;
@@ -2309,10 +2307,6 @@ animation: hvr-bob 3s ease-in-out infinite;
 }
 }
 
-/* Media queries 3
-------------------------------------------------------------------------------------------------
-  -----------------------------------------------------------------------------------------------
-   */
 
 
 
