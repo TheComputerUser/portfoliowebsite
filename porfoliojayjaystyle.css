@@ -1108,7 +1108,7 @@ footer{
         grid-gap: 1rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
-        max-height: 95vh;
+        max-height: 195vh;
         width: 90vw;
     }
     
@@ -1165,7 +1165,7 @@ footer{
     .about-me-1{
         display: flex;
         grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 2;
         overflow: auto;
@@ -1210,9 +1210,9 @@ footer{
     
     
     .about-me-2{
-        grid-column-start: 3;
+        grid-column-start: 1;
         grid-column-end: 4;
-        grid-row-start: 1;
+        grid-row-start: 2;
         grid-row-end: 2;
         line-height: 0;
         overflow: visible;
@@ -1232,9 +1232,9 @@ footer{
         justify-content: flex-start;
         flex-direction: column;
         grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 4;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 5;
     }
     
     .about-me-3.cel.show{
@@ -1242,10 +1242,10 @@ footer{
     }
     
     .about-me-4{
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 4;
-        grid-row-start: 2;
-        grid-row-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 5;
     }
 
     .about-me-4 h3{
@@ -1259,12 +1259,10 @@ footer{
     .about-me-5{
         display: flex;
         align-items: center;
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        width: 100%;
-    
+        grid-row-start: 6;
+        grid-row-end: 6;
     }
     
     .about-me-5.cel.show{
@@ -1278,10 +1276,9 @@ footer{
         font-size: 18px;
         font-weight: 600;
         color:  var(--text-primary);
-        max-width: 80%;
-        height: 100%;
         display: block;
         margin-bottom: 35px;
+        max-height: 80%;
     }
     
     .skill-section{
@@ -1446,7 +1443,7 @@ footer{
     #experience-title-container h3{
         display: flex;
         width: auto;
-        margin-left: 30%;;
+        margin-left: 8%;;
         
     }
     
