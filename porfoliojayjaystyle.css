@@ -1235,7 +1235,7 @@ footer{
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 5;
-        overflow-y: auto;
+        overflow-y: scroll;
     }
     
     .about-me-3.cel.show{
